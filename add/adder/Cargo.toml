@@ -1,0 +1,10 @@
+[package]
+name = "adder"
+version = "0.1.0"
+authors = ["Andreas Bigger <abigger87@gmail.com>"]
+edition = "2018"
+
+
+[dependencies]
+rand = "0.5.5"
+add-one = { path = "../add-one" }
