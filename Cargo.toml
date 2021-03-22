@@ -1,0 +1,15 @@
+[package]
+name = "rust"
+version = "0.1.0"
+authors = ["Andreas Bigger <abigger87@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+restaurant = { path = "./restaurant" }
+rand = "0.5.5"
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3

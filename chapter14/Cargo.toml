@@ -3,6 +3,8 @@ name = "chapter14"
 version = "0.1.0"
 authors = ["Andreas Bigger <abigger87@gmail.com>"]
 edition = "2018"
+description = "A fun game where you guess what number the computer has chosen."
+license = "MIT"
 
 [dependencies]
 
