@@ -1,0 +1,19 @@
+[package]
+name = "rust-lang-chapter14-tutorial"
+version = "0.1.0"
+authors = ["Andreas Bigger <abigger87@gmail.com>"]
+edition = "2018"
+description = "A fun game where you guess what number the computer has chosen."
+license = "MIT"
+documentation = "https://docs.rs/bitflags"
+readme = "README.md"
+homepage = "https://serde.rs/"
+
+
+[dependencies]
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
