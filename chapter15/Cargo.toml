@@ -1,0 +1,12 @@
+[package]
+name = "chapter15"
+version = "0.1.0"
+authors = ["Andreas Bigger <abigger87@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[workspace]
+members = [
+    "part1"
+]
